@@ -1,0 +1,6 @@
+{
+  "buy-together":{
+    "component": "BuyTogether",
+    "render": "client"
+  }
+}

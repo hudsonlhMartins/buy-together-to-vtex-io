@@ -1,0 +1,22 @@
+query productRecommendations($productId: ID!){
+  productRecommendations(type: buy, identifier:{
+    field: id, value: $productId
+  })@context(provider: "vtex.search-graphql"){
+    items(filter:ALL){
+      itemId,
+      nameComplete,
+        variations{
+        name,
+        values
+      }
+    },
+    link,
+   	specificationGroups{
+      name,
+      specifications{
+        name,
+        values
+      }
+    }
+  }
+}
