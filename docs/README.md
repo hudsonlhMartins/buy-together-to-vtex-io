@@ -2,7 +2,7 @@
 
 | Prop name       | Type                | Description                                                                                                  |
 | --------------- | ------------------- | ------------------------------------------------------------------------------------------------------------ |
-| `pixelId`    | `string`            | id que usar no minicart para abrir ex: <a href="#minicart-pixel">Aqui</a>                                               |
+| `pixelId`    | `string`            | id que usar no minicart para abrir ex: <a href="#pixel-minicart">Aqui</a>                                               |
 | `label`          | `string`            | Texto do botao |
 
 
@@ -24,7 +24,7 @@
 exemplo de como e o minicart:
 
 ```json
-	"minicart.v2": {
+  "minicart.v2": {
     "props": {
       "MinicartIcon": "icon-cart#minicart-icon",
       "customPixelEventId": "openMinicart"
