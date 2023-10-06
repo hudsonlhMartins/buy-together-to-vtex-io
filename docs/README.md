@@ -4,6 +4,7 @@
 | --------------- | ------------------- | ------------------------------------------------------------------------------------------------------------ |
 | `pixelId`    | `string`            | id que usar no minicart para abrir ex: <a href="#pixel-minicart">Aqui</a>                                               |
 | `label`          | `string`            | Texto do botao |
+| `title`          | `string`            | title do component|
 
 
 #### Exemplo de uso
